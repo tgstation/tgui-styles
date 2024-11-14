@@ -24,7 +24,7 @@ To import all styles at once, add the following line to your main Sass file:
 
 ### 2. Importing Individual Styles
 
-To import individual styles, add the following line to your main Sass file:
+To import individual styles, add any of the exported styles to your main Sass file:
 
 ```scss
 @use "tgui-styles/components/Button";
