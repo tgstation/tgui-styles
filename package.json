@@ -12,6 +12,10 @@
     "stylemistake",
     "jlsnow301"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgstation/tgui-styles.git"
+  },
   "exports": {
     "./components/*": {
       "import": "./lib/components/*.scss",
