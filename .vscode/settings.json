@@ -1,0 +1,11 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+  "[yaml][markdown][html][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.branchProtection": ["main"]
+}

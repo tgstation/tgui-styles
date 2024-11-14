@@ -1,0 +1,36 @@
+{
+  "name": "tgui-styles",
+  "description": "A collection of TGUI styles for use with the tgui-core library",
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [
+    "TGUI",
+    "library",
+    "sass"
+  ],
+  "authors": [
+    "stylemistake",
+    "jlsnow301"
+  ],
+  "exports": {
+    "./components/*": {
+      "import": "./lib/components/*.scss",
+      "require": "./lib/components/*.scss"
+    },
+    "./*": {
+      "import": "./lib/*.scss",
+      "require": "./lib/*.scss"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "check": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
+}
