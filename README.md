@@ -19,7 +19,7 @@ You have two options for importing styles:
 To import all styles at once, add the following line to your main Sass file:
 
 ```scss
-@import "tgui-styles/main.scss";
+@use "tgui-styles/main";
 ```
 
 ### 2. Importing Individual Styles
@@ -27,9 +27,9 @@ To import all styles at once, add the following line to your main Sass file:
 To import individual styles, add the following line to your main Sass file:
 
 ```scss
-@import "tgui-styles/components/Button.scss";
-@import "tgui-styles/components/Dialog.scss";
-@import "tgui-styles/components/NoticeBox.scss";
+@use "tgui-styles/components/Button";
+@use "tgui-styles/components/Dialog";
+@use "tgui-styles/components/NoticeBox";
 ```
 
 ## Contributing
