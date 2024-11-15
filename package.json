@@ -2,7 +2,7 @@
   "name": "tgui-styles",
   "description": "A collection of TGUI styles for use with the tgui-core library",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "keywords": [
     "TGUI",
     "library",
@@ -20,8 +20,8 @@
     ".": {
       "sass": "./lib/main.scss"
     },
-    "./components/*.scss": {
-      "sass": "./lib/components/*.scss"
+    "./components/*": {
+      "sass": "./lib/components/*"
     }
   },
   "files": [
