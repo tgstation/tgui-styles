@@ -2,7 +2,7 @@
   "name": "tgui-styles",
   "description": "A collection of TGUI styles for use with the tgui-core library",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "TGUI",
     "library",
@@ -16,16 +16,7 @@
     "type": "git",
     "url": "https://github.com/tgstation/tgui-styles.git"
   },
-  "exports": {
-    "./components/*": {
-      "import": "./lib/components/*.scss",
-      "require": "./lib/components/*.scss"
-    },
-    "./*": {
-      "import": "./lib/*.scss",
-      "require": "./lib/*.scss"
-    }
-  },
+  "main": "lib/main.scss",
   "files": [
     "lib"
   ],
