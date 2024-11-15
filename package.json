@@ -2,7 +2,7 @@
   "name": "tgui-styles",
   "description": "A collection of TGUI styles for use with the tgui-core library",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "keywords": [
     "TGUI",
     "library",
@@ -18,6 +18,7 @@
   },
   "exports": {
     ".": {
+      "default": "./lib/main.scss",
       "sass": "./lib/main.scss"
     },
     "./components/*": {
@@ -27,7 +28,6 @@
   "files": [
     "lib"
   ],
-  "main": "lib/main.scss",
   "scripts": {
     "check": "prettier --check .",
     "format": "prettier --write ."
