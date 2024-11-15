@@ -4,7 +4,7 @@ All the TG official styles for use with the [tgui-core](https://github.com/tgsta
 
 ## Installation
 
-First, install the package from inside the tgui directory using npm or pnpm.
+First, install the package from inside the proper tgui/packages/x directory using yarn.
 
 ```bash
 yarn add tgui-styles
