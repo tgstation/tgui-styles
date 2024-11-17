@@ -142,7 +142,7 @@ $separator-color: colors.$primary !default;
   flex-flow: column;
 }
 
-.Section--flex .Section__Content {
+.Section--flex .Section__content {
   overflow: auto;
   flex-grow: 1;
 }
