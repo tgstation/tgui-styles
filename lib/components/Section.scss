@@ -137,20 +137,20 @@ $separator-color: colors.$primary !default;
   font-size: base.em(12px);
 }
 
-.section__flex {
+.Section--flex {
   display: flex;
   flex-flow: column;
 }
 
-.section__flex .content {
+.Section--flex .Section__content {
   overflow: auto;
   flex-grow: 1;
 }
 
-.content__noTopPadding {
+.Section__content--noTopPadding {
   padding-top: 0;
 }
 
-.content__stretchContents {
+.Section__content--stretchContents {
   height: calc(100% - 3rem);
 }
