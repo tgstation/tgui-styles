@@ -2,7 +2,7 @@
   "name": "tgui-styles",
   "description": "A collection of TGUI styles for use with the tgui-core library",
   "license": "MIT",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "keywords": [
     "TGUI",
     "library",
