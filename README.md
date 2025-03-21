@@ -1,6 +1,6 @@
 # TGUI Styles
 
-All the TG official styles for use with the [tgui-core](https://github.com/tgstation/tgui-core) library.
+All the TG official styles for use with the [tgui-core](https://github.com/tgstation/tgui-core) library. 
 
 ## Installation
 
