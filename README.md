@@ -1,3 +1,6 @@
+# Deprecation Notice
+This package has been integrated into [tgui-core](https://github.com/tgstation/tgui-core). Please use that instead. This repo will no longer receive updates.
+
 # TGUI Styles
 
 All the TG official styles for use with the [tgui-core](https://github.com/tgstation/tgui-core) library.
