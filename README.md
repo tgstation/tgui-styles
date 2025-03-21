@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This code has been merged with tgui-core, which now ships as headless by default. Please use that library instead. As such, this repo will no longer be receiving updates.
+
 # TGUI Styles
 
 All the TG official styles for use with the [tgui-core](https://github.com/tgstation/tgui-core) library. 
